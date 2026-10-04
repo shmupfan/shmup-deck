@@ -421,6 +421,9 @@
   "scramble": {
    "source": "official"
   },
+  "SDGundamPS": {
+   "source": "official"
+  },
   "SegaG80": {
    "source": "github",
    "url": "https://github.com/RodimusFVC/Arcade-SegaG80_MiSTer",
@@ -511,9 +514,6 @@
   },
   "terracresta": {
    "source": "coinop"
-  },
-  "TimePilot84": {
-   "source": "official"
   },
   "truxton2": {
    "source": "coinop"

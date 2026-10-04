@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/1d8d7b90278b7e456cac59dda031c0b299760ad9/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/4adff2f468ef7c8b9741819b960fd42e9cdfe0c5/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -605,20 +605,6 @@
   ],
   "tone": 1
  },
- "spbomber": {
-  "url": "https://images.launchbox-app.com/2cd21822-6fa8-4992-aae7-c5d99b1f948b.jpg",
-  "size": [
-   876,
-   1200
-  ],
-  "crop": [
-   0,
-   0,
-   876,
-   1200
-  ],
-  "tone": 1
- },
  "s1945iii": {
   "url": "https://images.launchbox-app.com/68aefe15-48c0-442b-957d-15c40f90a9a1.jpg",
   "size": [
@@ -784,20 +770,6 @@
    0,
    1193,
    1676
-  ],
-  "tone": 1
- },
- "tp84": {
-  "url": "https://images.launchbox-app.com/8bdf7213-5055-4d1d-abce-458fe02f85c4.jpg",
-  "size": [
-   1280,
-   1798
-  ],
-  "crop": [
-   0,
-   0,
-   1280,
-   1798
   ],
   "tone": 1
  },
@@ -4103,20 +4075,6 @@
   ],
   "tone": 1
  },
- "lastmisn": {
-  "url": "https://images.launchbox-app.com/685a8689-1e8b-405f-b4c0-76d651cd29b2.jpg",
-  "size": [
-   1280,
-   1815
-  ],
-  "crop": [
-   0,
-   0,
-   1280,
-   1815
-  ],
-  "tone": 1
- },
  "1945kiii": {
   "url": "https://raw.githubusercontent.com/libretro-thumbnails/MAME/98a416763471b2325914712aec42b9fe7cf5d37b/Named_Boxarts/1945k%20III.png",
   "size": [
@@ -4249,6 +4207,34 @@
   ],
   "fit": "contain",
   "upgrade": "Flyer squarer than a card, shown whole",
+  "tone": 1
+ },
+ "sdgndmps": {
+  "url": "https://images.launchbox-app.com/251dec92-1d49-4790-a4a8-49226119d4ce.jpg",
+  "size": [
+   1280,
+   1803
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1803
+  ],
+  "tone": 1
+ },
+ "skyrobo": {
+  "url": "https://images.launchbox-app.com/cc87740b-8f40-47bf-9728-66779f896925.jpg",
+  "size": [
+   1280,
+   1800
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1800
+  ],
   "tone": 1
  }
 }

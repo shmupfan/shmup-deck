@@ -2,6 +2,11 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.10 (2026-10-04)
+
+- Two more scrolling shooters from issue #12: SD Gundam Psycho Salamander no Kyoui (SDGundamPS core, in Update All) and Sky Robo, with its Japanese version Tatakae! Big Fighter (Armed F core, Coin-Op Collection). Both with flyers.
+- Four games leave the deck because the screen doesn't scroll on its own: Space Bomber is a fixed-screen shooter; in Time Pilot '84 and Last Mission you fly freely in any direction; and in Back Fire you set the speed and direction of the scrolling. The Konami tate deck now has eight games. 311 games in all.
+
 ## 1.12.9 (2026-10-04)
 
 - Twelve more scrolling shooters, from the catver.ini comparison in issue #12: Sky Kid, Transformer, Fantasy Zone II (System 16C), Choutetsu Brikin'ger / Iron Clad, Battle of Atlantis, Mars, Mission-X, Catacomb, Bio Attack, Gardia, Brain and Space Odyssey. 313 games in all.

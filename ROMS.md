@@ -1,6 +1,6 @@
 # Supported games and ROMs
 
-Shmup Deck supports 313 games: 298 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
+Shmup Deck supports 311 games: 296 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
 
 To see what your own MiSTer is missing, open **http://shmupdeck.local/check.html** once Shmup Deck is installed. It checks every game for its MRA, core and ROM zips and can copy the missing zip names.
 
@@ -31,7 +31,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Asuka | 1 | [www.patreon.com/bazset](https://www.patreon.com/bazset/posts/asuka-asuka-1988-169899343) | Core and MRA from the author's Patreon post; no repository |
 | CV1000 | 14 | [ika-musume/ikacore_CV1k](https://github.com/ika-musume/ikacore_CV1k) | The repository has no core build or MRAs; builds come from the developer. MRAs for all games, including DoDonPachi SaiDaiOuJou and Akai Katana, are in [funkycochise/CV1K_Res](https://github.com/funkycochise/CV1K_Res) |
 | Capcom | 1 | [OngoGablogian/MiSTer_Ongo](https://github.com/OngoGablogian/MiSTer_Ongo) |  |
-| DEC8 | 2 | [shmupfan/Arcade-DEC8_MiSTer](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
+| DEC8 | 1 | [shmupfan/Arcade-DEC8_MiSTer](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
 | Darius | 1 | [rmonic79/Arcade-Darius_MiSTer](https://github.com/rmonic79/Arcade-Darius_MiSTer) | Core and MRAs in the repository's releases folder |
 | Darius II | 1 | [rmonic79/Arcade-Darius2NinjaWarriors_MiSTer](https://github.com/rmonic79/Arcade-Darius2NinjaWarriors_MiSTer) | Core and MRAs in the repository's releases folder; The Ninja Warriors shares it |
 | Dooyong | 7 | [shmupfan/Arcade-Dooyong_MiSTer](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution); one core runs all the Dooyong games |
@@ -201,7 +201,6 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
-| Last Mission | 1986 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `lastmisn.zip` | same |  |
 | SRD: Super Real Darwin | 1987 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `srdarwin.zip` | same |  |
 
 ### DECO Cassette
@@ -420,6 +419,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | --- | --- | --- | --- | --- | --- |
 | Armed F | 1988 | Coin-Op Collection | `armedf.zip` | same |  |
 | Legion | 1987 | Coin-Op Collection | `legion.zip` | same |  |
+| Sky Robo | 1989 | Coin-Op Collection | `skyrobo.zip` | same |  |
 | Terra Cresta | 1985 | Coin-Op Collection | `terracre.zip` | same |  |
 | Terra Force | 1987 | Coin-Op Collection | `terraf.zip` | same |  |
 
@@ -485,7 +485,6 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Dragon Blaze | 2000 | MiSTer main distribution | `dragnblz.zip` | same |  |
 | Gunbird 2 | 1998 | MiSTer main distribution | `gunbird2.zip` | same |  |
 | Sol Divide | 1997 | MiSTer main distribution | `soldivid.zip` | same |  |
-| Space Bomber | 1998 | MiSTer main distribution | `sbomber.zip` | same |  |
 | Strikers 1945 II | 1997 | MiSTer main distribution | `s1945ii.zip` | same |  |
 | Strikers 1945 III | 1999 | MiSTer main distribution | `s1945iii.zip` | same |  |
 
@@ -520,6 +519,12 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Mars | 1981 | MiSTer main distribution | `mars.zip` | same |  |
 | Scramble | 1981 | MiSTer main distribution | `scrambp.zip` | same |  |
 | Super Cobra | 1981 | MiSTer main distribution | `scobra.zip` | same |  |
+
+### SD Gundam
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| SD Gundam Psycho Salamander no Kyoui | 1991 | MiSTer main distribution | `sdgndmps.zip` | same |  |
 
 ### Sega
 
@@ -727,7 +732,6 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
-| Back Fire | 1988 | MiSTer main distribution | `backfirt.zip` | same |  |
 | Gemini Wing | 1987 | MiSTer main distribution | `gemini.zip` | same |  |
 | Raiga Strato Fighter | 1991 | JOTEGO cores | `stratof.zip` | same |  |
 | Silkworm | 1988 | MiSTer main distribution | `silkworm.zip` | same |  |
@@ -737,12 +741,6 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
 | Final Star Force | 1992 | [GitHub](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | `fstarfrc.zip` | same |  |
-
-### TimePilot84
-
-| Game | Year | Core source | Zip | Merged set zip | Also needs |
-| --- | --- | --- | --- | --- | --- |
-| Time Pilot '84 | 1984 | MiSTer main distribution | `tp84.zip` | same |  |
 
 ### Toaplan
 
@@ -863,7 +861,6 @@ ashuraj.zip
 aso.zip
 asuka.zip
 atlantis2.zip
-backfirt.zip
 batrider.zip
 batsugun.zip
 batsugunsp.zip
@@ -990,7 +987,6 @@ kingdmgp.zip
 konamigx.zip
 lastday.zip
 lastduel.zip
-lastmisn.zip
 legion.zip
 lethalth.zip
 lgtnfght.zip
@@ -1060,9 +1056,9 @@ salamand.zip
 salmndr2.zip
 samuraia.zip
 sandscrp.zip
-sbomber.zip
 scobra.zip
 scrambp.zip
+sdgndmps.zip
 sdib.zip
 sectionz.zip
 sengekis.zip
@@ -1074,6 +1070,7 @@ skns.zip
 skyadvnt.zip
 skykid.zip
 skykiddx.zip
+skyrobo.zip
 skysmash.zip
 skysoldr.zip
 slapfighb1.zip
@@ -1117,7 +1114,6 @@ tigerhb1.zip
 tndrcade.zip
 tnextspcj.zip
 tokio.zip
-tp84.zip
 transfrm.zip
 truxton.zip
 truxton2.zip
@@ -1183,7 +1179,6 @@ ashura.zip
 aso.zip
 asuka.zip
 atlantis.zip
-backfirt.zip
 batrider.zip
 batsugun.zip
 bbakraid.zip
@@ -1306,7 +1301,6 @@ kingdmgp.zip
 konamigx.zip
 lastday.zip
 lastduel.zip
-lastmisn.zip
 legion.zip
 lethalth.zip
 lgtnfght.zip
@@ -1376,9 +1370,9 @@ salamand.zip
 salmndr2.zip
 samuraia.zip
 sandscrp.zip
-sbomber.zip
 scobra.zip
 scrambp.zip
+sdgndmps.zip
 sdi.zip
 sectionz.zip
 sengekis.zip
@@ -1390,6 +1384,7 @@ skns.zip
 skyadvnt.zip
 skykid.zip
 skykiddx.zip
+skyrobo.zip
 skysmash.zip
 skysoldr.zip
 slspirit.zip
@@ -1431,7 +1426,6 @@ tigerh.zip
 tndrcade.zip
 tnextspc.zip
 tokio.zip
-tp84.zip
 transfrm.zip
 truxton.zip
 truxton2.zip

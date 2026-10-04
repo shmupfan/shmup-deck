@@ -981,26 +981,6 @@
   "rotation": "ccw"
  },
  {
-  "id": "spbomber",
-  "title": "Space Bomber",
-  "dev": "Psikyo",
-  "year": 1998,
-  "core": "PsikyoSH2",
-  "system": "Psikyo SH-2",
-  "orientation": "tate",
-  "setnames": [
-   "sbomber",
-   "sbombera"
-  ],
-  "rbf": "PsikyoSH2",
-  "roms": {
-   "zip": "sbomber",
-   "merged": "sbomber",
-   "shared": []
-  },
-  "rotation": "ccw"
- },
- {
   "id": "s1945iii",
   "title": "Strikers 1945 III",
   "dev": "Psikyo",
@@ -1255,27 +1235,6 @@
    "merged": "stratof",
    "shared": []
   }
- },
- {
-  "id": "tp84",
-  "title": "Time Pilot '84",
-  "dev": "Konami",
-  "year": 1984,
-  "core": "TimePilot84",
-  "system": "Konami Time Pilot '84",
-  "orientation": "tate",
-  "setnames": [
-   "tp84",
-   "tp84a",
-   "tp84b"
-  ],
-  "rbf": "TimePilot84",
-  "roms": {
-   "zip": "tp84",
-   "merged": "tp84",
-   "shared": []
-  },
-  "rotation": "cw"
  },
  {
   "id": "drtoppel",
@@ -4834,24 +4793,6 @@
   "rotation": "ccw"
  },
  {
-  "id": "backfirt",
-  "title": "Back Fire",
-  "dev": "Tecmo",
-  "year": 1988,
-  "core": "Tecmo",
-  "system": "Tecmo Silkworm",
-  "orientation": "yoko",
-  "setnames": [
-   "backfirt"
-  ],
-  "rbf": "Tecmo",
-  "roms": {
-   "zip": "backfirt",
-   "merged": "backfirt",
-   "shared": []
-  }
- },
- {
   "id": "blastoff",
   "title": "Blast Off",
   "dev": "Namco",
@@ -6434,28 +6375,6 @@
   "rotation": "ccw"
  },
  {
-  "id": "lastmisn",
-  "title": "Last Mission",
-  "dev": "Data East",
-  "year": 1986,
-  "core": "DEC8",
-  "system": "Data East DEC8",
-  "orientation": "tate",
-  "setnames": [
-   "lastmisn",
-   "lastmisnu6",
-   "lastmisnu5",
-   "lastmisnj"
-  ],
-  "rbf": "dec8",
-  "roms": {
-   "zip": "lastmisn",
-   "merged": "lastmisn",
-   "shared": []
-  },
-  "rotation": "ccw"
- },
- {
   "id": "skykid",
   "title": "Sky Kid",
   "dev": "Namco",
@@ -6688,5 +6607,42 @@
    "shared": []
   },
   "rotation": "ccw"
+ },
+ {
+  "id": "sdgndmps",
+  "title": "SD Gundam Psycho Salamander no Kyoui",
+  "dev": "Banpresto / Bandai",
+  "year": 1991,
+  "core": "SD Gundam",
+  "system": "Seibu D-Con",
+  "orientation": "yoko",
+  "setnames": [
+   "sdgndmps"
+  ],
+  "rbf": "SDGundamPS",
+  "roms": {
+   "zip": "sdgndmps",
+   "merged": "sdgndmps",
+   "shared": []
+  }
+ },
+ {
+  "id": "skyrobo",
+  "title": "Sky Robo",
+  "dev": "Nichibutsu",
+  "year": 1989,
+  "core": "Nichibutsu",
+  "system": "Nichibutsu Armed F",
+  "orientation": "yoko",
+  "setnames": [
+   "skyrobo",
+   "bigfghtr"
+  ],
+  "rbf": "armedf",
+  "roms": {
+   "zip": "skyrobo",
+   "merged": "skyrobo",
+   "shared": []
+  }
  }
 ]
