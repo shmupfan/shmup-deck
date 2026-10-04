@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/9ee3e6fadfb0a09708ab9f3e303cc2cb192e1052/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/a915c58b0f3a15358268ed001ed1e7771dd7fa8f/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -4073,6 +4073,48 @@
   ],
   "fit": "contain",
   "upgrade": "Flyer taller than a card, shown whole",
+  "tone": 1
+ },
+ "fstarfrc": {
+  "url": "https://images.launchbox-app.com/9b2d1c17-86ea-43da-9230-78c3e2a26fbe.jpg",
+  "size": [
+   850,
+   1206
+  ],
+  "crop": [
+   0,
+   0,
+   850,
+   1206
+  ],
+  "tone": 1
+ },
+ "srdarwin": {
+  "url": "https://images.launchbox-app.com/10129b53-486d-423e-99a9-bd667f2028b3.jpg",
+  "size": [
+   1280,
+   1811
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1811
+  ],
+  "tone": 1
+ },
+ "lastmisn": {
+  "url": "https://images.launchbox-app.com/685a8689-1e8b-405f-b4c0-76d651cd29b2.jpg",
+  "size": [
+   1280,
+   1815
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1815
+  ],
   "tone": 1
  }
 }

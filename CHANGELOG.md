@@ -4,6 +4,8 @@ Every release of Shmup Deck, newest first. The GitHub release for each version c
 
 ## 1.12.7 (2026-10-04)
 
+- Five games on new shmupfan cores: 1945k III and Solite Spirits (1945k III core), Final Star Force (Tecmo 16 core), and SRD: Super Real Darwin and Last Mission (DEC8 core), with their regional sets. The cores come from the shmupfan database (github.com/shmupfan/Distribution) or each core's repository, and the cards appear once the core is installed. The ROMs page names the shmupfan database as their source, as it now does for the Dooyong games.
+- Flyers for Final Star Force, SRD: Super Real Darwin and Last Mission. 1945k III and Solite Spirits have no known flyer, so they show their title.
 - Every flyer has had its contrast, brightness and colour evened out, so the wall looks like one set: faded and yellowed scans are cleaner, and very dark or very pale ones sit closer to the rest. Each flyer keeps its own look. The new flyers download in the background after the update, one every couple of seconds.
 
 ## 1.12.6 (2026-10-04)

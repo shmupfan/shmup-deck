@@ -6348,5 +6348,111 @@
    ]
   },
   "rotation": "cw"
+ },
+ {
+  "id": "1945kiii",
+  "title": "1945k III",
+  "dev": "Oriental Soft",
+  "year": 2000,
+  "core": "1945kIII",
+  "system": "Oriental Soft",
+  "orientation": "tate",
+  "setnames": [
+   "1945kiii",
+   "1945kiiin",
+   "1945kiiio",
+   "1945kiiipt"
+  ],
+  "rbf": "1945kiii",
+  "roms": {
+   "zip": "1945kiii",
+   "merged": "1945kiii",
+   "shared": []
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "slspirit",
+  "title": "Solite Spirits",
+  "dev": "Promat",
+  "year": 1999,
+  "core": "1945kIII",
+  "system": "Oriental Soft",
+  "orientation": "tate",
+  "setnames": [
+   "slspirit"
+  ],
+  "rbf": "1945kiii",
+  "roms": {
+   "zip": "slspirit",
+   "merged": "slspirit",
+   "shared": []
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "fstarfrc",
+  "title": "Final Star Force",
+  "dev": "Tecmo",
+  "year": 1992,
+  "core": "Tecmo16",
+  "system": "Tecmo 16",
+  "orientation": "tate",
+  "setnames": [
+   "fstarfrc",
+   "fstarfrcj",
+   "fstarfrcja",
+   "fstarfrcw"
+  ],
+  "rbf": "tecmo16",
+  "roms": {
+   "zip": "fstarfrc",
+   "merged": "fstarfrc",
+   "shared": []
+  },
+  "rotation": "cw"
+ },
+ {
+  "id": "srdarwin",
+  "title": "SRD: Super Real Darwin",
+  "dev": "Data East",
+  "year": 1987,
+  "core": "DEC8",
+  "system": "Data East DEC8",
+  "orientation": "tate",
+  "setnames": [
+   "srdarwin",
+   "srdarwinj",
+   "srdarwinb"
+  ],
+  "rbf": "dec8",
+  "roms": {
+   "zip": "srdarwin",
+   "merged": "srdarwin",
+   "shared": []
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "lastmisn",
+  "title": "Last Mission",
+  "dev": "Data East",
+  "year": 1986,
+  "core": "DEC8",
+  "system": "Data East DEC8",
+  "orientation": "tate",
+  "setnames": [
+   "lastmisn",
+   "lastmisnu6",
+   "lastmisnu5",
+   "lastmisnj"
+  ],
+  "rbf": "dec8",
+  "roms": {
+   "zip": "lastmisn",
+   "merged": "lastmisn",
+   "shared": []
+  },
+  "rotation": "ccw"
  }
 ]

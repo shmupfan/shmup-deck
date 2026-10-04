@@ -29,9 +29,19 @@
    "name": "MiSTer_Ongo",
    "note": "a third-party downloader database (github.com/OngoGablogian/MiSTer_Ongo), not part of Update All; the deck lists these games only when the core is already installed",
    "standard": false
+  },
+  "shmupfan": {
+   "name": "shmupfan cores",
+   "note": "a downloader database (github.com/shmupfan/Distribution), not part of Update All by default; the deck lists these games only when the core is installed",
+   "standard": false
   }
  },
  "cores": {
+  "1945kiii": {
+   "source": "shmupfan",
+   "url": "https://github.com/shmupfan/Arcade-1945kIII_MiSTer",
+   "note": "Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution)"
+  },
   "Aleck64": {
    "source": "official"
   },
@@ -91,6 +101,11 @@
   "dblewing": {
    "source": "coinop"
   },
+  "dec8": {
+   "source": "shmupfan",
+   "url": "https://github.com/shmupfan/Arcade-DEC8_MiSTer",
+   "note": "Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution)"
+  },
   "deco16": {
    "source": "official"
   },
@@ -100,9 +115,9 @@
    "note": "Core and MRAs in the repository's _Arcade folder"
   },
   "dooyong": {
-   "source": "github",
+   "source": "shmupfan",
    "url": "https://github.com/shmupfan/Arcade-Dooyong_MiSTer",
-   "note": "Core and MRAs in the repository's releases folder; one core runs all the Dooyong games"
+   "note": "Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution); one core runs all the Dooyong games"
   },
   "EarthJoker": {
    "source": "github",
@@ -466,6 +481,11 @@
   },
   "Tecmo": {
    "source": "official"
+  },
+  "tecmo16": {
+   "source": "shmupfan",
+   "url": "https://github.com/shmupfan/Arcade-Tecmo16_MiSTer",
+   "note": "Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution)"
   },
   "terracresta": {
    "source": "coinop"

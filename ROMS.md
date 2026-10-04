@@ -1,6 +1,6 @@
 # Supported games and ROMs
 
-Shmup Deck supports 296 games: 282 arcade games that run from MRA files and 14 Neo Geo games. This page lists the core and ROM files each one needs.
+Shmup Deck supports 301 games: 287 arcade games that run from MRA files and 14 Neo Geo games. This page lists the core and ROM files each one needs.
 
 To see what your own MiSTer is missing, open **http://shmupdeck.local/check.html** once Shmup Deck is installed. It checks every game for its MRA, core and ROM zips and can copy the missing zip names.
 
@@ -27,12 +27,14 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 | Core | Games | Repository | Notes |
 | --- | --- | --- | --- |
+| 1945kIII | 2 | [shmupfan/Arcade-1945kIII_MiSTer](https://github.com/shmupfan/Arcade-1945kIII_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
 | Asuka | 1 | [www.patreon.com/bazset](https://www.patreon.com/bazset/posts/asuka-asuka-1988-169899343) | Core and MRA from the author's Patreon post; no repository |
 | CV1000 | 14 | [ika-musume/ikacore_CV1k](https://github.com/ika-musume/ikacore_CV1k) | The repository has no core build or MRAs; builds come from the developer. MRAs for all games, including DoDonPachi SaiDaiOuJou and Akai Katana, are in [funkycochise/CV1K_Res](https://github.com/funkycochise/CV1K_Res) |
 | Capcom | 1 | [OngoGablogian/MiSTer_Ongo](https://github.com/OngoGablogian/MiSTer_Ongo) |  |
+| DEC8 | 2 | [shmupfan/Arcade-DEC8_MiSTer](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
 | Darius | 1 | [rmonic79/Arcade-Darius_MiSTer](https://github.com/rmonic79/Arcade-Darius_MiSTer) | Core and MRAs in the repository's releases folder |
 | Darius II | 1 | [rmonic79/Arcade-Darius2NinjaWarriors_MiSTer](https://github.com/rmonic79/Arcade-Darius2NinjaWarriors_MiSTer) | Core and MRAs in the repository's releases folder; The Ninja Warriors shares it |
-| Dooyong | 7 | [shmupfan/Arcade-Dooyong_MiSTer](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | Core and MRAs in the repository's releases folder; one core runs all the Dooyong games |
+| Dooyong | 7 | [shmupfan/Arcade-Dooyong_MiSTer](https://github.com/shmupfan/Arcade-Dooyong_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution); one core runs all the Dooyong games |
 | EarthJoker | 1 | [www.patreon.com/bazset](https://www.patreon.com/bazset/posts/u-n-defense-1993-169900198) | Core and MRA from the author's Patreon post; no repository |
 | Face | 1 | [kyledlester/MiSTer_Nostradamus](https://github.com/kyledlester/MiSTer_Nostradamus) | Core and MRAs in the repository's Releases and MRA folders; a beta |
 | Galmedes | 1 | [www.patreon.com/bazset](https://www.patreon.com/bazset/posts/galmedes-visco-169900687) | Core and MRA from the author's Patreon post; no repository |
@@ -62,12 +64,20 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Taito B | 3 | [Mezzow/Arcade-TaitoB_MiSTer](https://github.com/Mezzow/Arcade-TaitoB_MiSTer) | Core and MRAs in the repository's releases folder |
 | Taito F3 | 5 | [spacestate1/Arcade-taitoF3_MiSTer](https://github.com/spacestate1/Arcade-taitoF3_MiSTer) |  |
 | Taito FX-1B | 2 | [XelaNotPu/ZN1-TaitoFX1B_MiSTer](https://github.com/XelaNotPu/ZN1-TaitoFX1B_MiSTer) |  |
+| Tecmo16 | 1 | [shmupfan/Arcade-Tecmo16_MiSTer](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
 | Toaplan | 5 | [TheJesusFish/Slop-Core](https://github.com/TheJesusFish/Slop-Core) | Core and MRAs in the repository's _Arcade folder |
 | TwinHawk | 1 | [bazset/Twin-Hawk-FPGA](https://github.com/bazset/Twin-Hawk-FPGA) | MRAs in the repository; the core build is on the author's Patreon |
 | Video System | 2 | [OngoGablogian/MiSTer_Ongo](https://github.com/OngoGablogian/MiSTer_Ongo) |  |
 | ZN-1 | 2 | [OngoGablogian/MiSTer_Ongo](https://github.com/OngoGablogian/MiSTer_Ongo) |  |
 
 ## Arcade games
+
+### 1945kIII
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| 1945k III | 2000 | [GitHub](https://github.com/shmupfan/Arcade-1945kIII_MiSTer) | `1945kiii.zip` | same |  |
+| Solite Spirits | 1999 | [GitHub](https://github.com/shmupfan/Arcade-1945kIII_MiSTer) | `slspirit.zip` | same |  |
 
 ### Aleck64
 
@@ -184,6 +194,13 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Double Wings | 1993 | Coin-Op Collection | `dblewingb.zip` | `dblewing.zip` |  |
 | Vapor Trail | 1989 | MiSTer main distribution | `vaportra.zip` | same |  |
 | Wonder Planet | 1987 | JOTEGO cores | `wndrplnt.zip` | same |  |
+
+### DEC8
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Last Mission | 1986 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `lastmisn.zip` | same |  |
+| SRD: Super Real Darwin | 1987 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `srdarwin.zip` | same |  |
 
 ### Dooyong
 
@@ -682,6 +699,12 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Raiga Strato Fighter | 1991 | JOTEGO cores | `stratof.zip` | same |  |
 | Silkworm | 1988 | MiSTer main distribution | `silkworm.zip` | same |  |
 
+### Tecmo16
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Final Star Force | 1992 | [GitHub](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | `fstarfrc.zip` | same |  |
+
 ### TimePilot84
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
@@ -787,6 +810,7 @@ One per line, for filtering a download. Non-merged or split set:
 1943.zip
 1943kai.zip
 1944.zip
+1945kiii.zip
 19xx.zip
 4dwarrio.zip
 acrobatm.zip
@@ -879,6 +903,7 @@ fixeightt.zip
 flytiger.zip
 forgottn.zip
 fshark.zip
+fstarfrc.zip
 futari15.zip
 futaribl.zip
 futspy.zip
@@ -923,6 +948,7 @@ kingdmgp.zip
 konamigx.zip
 lastday.zip
 lastduel.zip
+lastmisn.zip
 legion.zip
 lethalth.zip
 lgtnfght.zip
@@ -1007,10 +1033,12 @@ skykiddx.zip
 skysmash.zip
 skysoldr.zip
 slapfighb1.zip
+slspirit.zip
 sokyugrt.zip
 soldivid.zip
 sonicbom.zip
 spec2k.zip
+srdarwin.zip
 srdmissn.zip
 ssmissin.zip
 sspirits.zip
@@ -1087,6 +1115,7 @@ Merged set:
 1943.zip
 1943kai.zip
 1944.zip
+1945kiii.zip
 19xx.zip
 4dwarrio.zip
 acrobatm.zip
@@ -1180,6 +1209,7 @@ fixeight.zip
 flytiger.zip
 forgottn.zip
 fshark.zip
+fstarfrc.zip
 futari15.zip
 futaribl.zip
 futspy.zip
@@ -1222,6 +1252,7 @@ kingdmgp.zip
 konamigx.zip
 lastday.zip
 lastduel.zip
+lastmisn.zip
 legion.zip
 lethalth.zip
 lgtnfght.zip
@@ -1305,10 +1336,12 @@ skyadvnt.zip
 skykiddx.zip
 skysmash.zip
 skysoldr.zip
+slspirit.zip
 sokyugrt.zip
 soldivid.zip
 sonicbom.zip
 spec2k.zip
+srdarwin.zip
 srdmissn.zip
 ssmissin.zip
 sspirits.zip
