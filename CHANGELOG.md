@@ -2,6 +2,10 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.7 (2026-10-04)
+
+- Every flyer has had its contrast, brightness and colour evened out, so the wall looks like one set: faded and yellowed scans are cleaner, and very dark or very pale ones sit closer to the rest. Each flyer keeps its own look. The new flyers download in the background after the update, one every couple of seconds.
+
 ## 1.12.6 (2026-10-04)
 
 - On an iPad mini in portrait, or an iPad in Split View, the wall shows three columns of cards instead of two very large ones.

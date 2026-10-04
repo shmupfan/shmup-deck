@@ -23,6 +23,7 @@ from PIL import Image
 
 WHITE = 218         # a pixel this bright counts as bare paper
 PAPER_ROW = 0.85    # a row or column this light is margin, not artwork
+TONE = 1            # the colour pass build_art_mirror.py applies; see tone() there
 CARD_RATIO = 1.42   # height / width of a card
 MAX_SHIFT = 0.08    # warn when a scan is stretched further than this
 
@@ -66,7 +67,7 @@ def main(sources_path, scans_dir, out_path):
         shift = CARD_RATIO / (crop[3] / crop[2]) - 1
         if abs(shift) > MAX_SHIFT:
             problems.append(f"{gid}: needs {shift:+.0%} to fit a card")
-        entry = {"url": src["url"], "size": list(im.size), "crop": crop}
+        entry = {"url": src["url"], "size": list(im.size), "crop": crop, "tone": TONE}
         if src.get("referer"):
             entry["referer"] = src["referer"]
         out[gid] = entry
