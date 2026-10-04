@@ -2,6 +2,12 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.9 (2026-10-04)
+
+- Twelve more scrolling shooters, from the catver.ini comparison in issue #12: Sky Kid, Transformer, Fantasy Zone II (System 16C), Choutetsu Brikin'ger / Iron Clad, Battle of Atlantis, Mars, Mission-X, Catacomb, Bio Attack, Gardia, Brain and Space Odyssey. 313 games in all.
+- Most run on cores in Update All (MiSTer main distribution or JOTEGO). Gardia and Brain need TheJesusFish's Blackwine System 1/2 core, and Space Odyssey needs RodimusFVC's SegaG80 core; ROMS.md links both. Mission-X also needs decocass.zip.
+- Flyers for eight of them. Fantasy Zone II (System 16C), Iron Clad, Brain and Catacomb have no known flyer, so they show their title.
+
 ## 1.12.8 (2026-10-04)
 
 - 1945k III has art: the game's title-screen artwork, since no flyer for it is known. It is on the flyers wanted list in case one turns up.

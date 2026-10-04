@@ -1,6 +1,6 @@
 # Supported games and ROMs
 
-Shmup Deck supports 301 games: 287 arcade games that run from MRA files and 14 Neo Geo games. This page lists the core and ROM files each one needs.
+Shmup Deck supports 313 games: 298 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
 
 To see what your own MiSTer is missing, open **http://shmupdeck.local/check.html** once Shmup Deck is installed. It checks every game for its MRA, core and ROM zips and can copy the missing zip names.
 
@@ -55,6 +55,8 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Raiden | 1 | [rmonic79/Arcade-Raiden_MiSTer](https://github.com/rmonic79/Arcade-Raiden_MiSTer) | Core and MRAs in the repository's releases folder |
 | Raiden2 | 2 | [rmonic79/Arcade-Raiden2_MiSTer](https://github.com/rmonic79/Arcade-Raiden2_MiSTer) | Core and MRAs in the repository's releases folder; Raiden II and Raiden DX share it |
 | SKNS | 2 | [srg320/Arcade-SKNS_MiSTer](https://github.com/srg320/Arcade-SKNS_MiSTer) | Core and MRAs in the repository's releases folder; every game also needs skns.zip, the system BIOS |
+| Sega G80 | 1 | [RodimusFVC/Arcade-SegaG80_MiSTer](https://github.com/RodimusFVC/Arcade-SegaG80_MiSTer) | Core and MRA in the repository's releases folder |
+| Sega System 1 | 2 | [TheJesusFish/Blackwine-SegaSystem1-2_MiSTer](https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer) | Core and MRAs in the repository's _Arcade folder; a fork of the Sega System 1 core that adds Gardia and Brain |
 | Sega System 24 | 1 | [OngoGablogian/MiSTer_Ongo](https://github.com/OngoGablogian/MiSTer_Ongo) |  |
 | SeibuSPI | 4 | [zakk4223/Arcade-SeibuSPI_MiSTer](https://github.com/zakk4223/Arcade-SeibuSPI_MiSTer) | Core and MRAs in the repository's releases folder; an early core, the author describes it as unvalidated against hardware |
 | Seta | 8 | [ppriest/Arcade-Seta_MiSTer](https://github.com/ppriest/Arcade-Seta_MiSTer) |  |
@@ -202,6 +204,12 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Last Mission | 1986 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `lastmisn.zip` | same |  |
 | SRD: Super Real Darwin | 1987 | [GitHub](https://github.com/shmupfan/Arcade-DEC8_MiSTer) | `srdarwin.zip` | same |  |
 
+### DECO Cassette
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Mission-X | 1982 | MiSTer main distribution | `cmissnx.zip` | same | `decocass.zip` |
+
 ### Dooyong
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
@@ -227,6 +235,12 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Nostradamus * | 1993 | [GitHub](https://github.com/kyledlester/MiSTer_Nostradamus) | `nost.zip` | same |  |
 
 \* Nostradamus: The screen stays black for about 3 seconds at power-on while the board runs its start-up check.
+
+### Galaxian
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Catacomb | 1982 | MiSTer main distribution | `catacomb.zip` | same |  |
 
 ### Galivan
 
@@ -376,6 +390,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Ordyne | 1988 | [GitHub](https://github.com/kuzearcade/Arcade-NamcoSystem2_MiSTer) | `ordyne.zip` | same | `namcoc65.zip` |
 | Phelios * | 1988 | [GitHub](https://github.com/kuzearcade/Arcade-NamcoSystem2_MiSTer) | `phelios.zip` | same | `namcoc65.zip` |
 | Pistol Daimyo no Bouken | 1990 | JOTEGO cores | `pistoldm.zip` | same |  |
+| Sky Kid | 1985 | JOTEGO cores | `skykid.zip` | same |  |
 | Sky Kid Deluxe | 1986 | JOTEGO cores | `skykiddx.zip` | same |  |
 
 \* Phelios: On first launch the game stops at a warning screen; press 1P Start. Open the MiSTer menu once it is running (or use Save NVRAM) and the core keeps the setting, so it only happens once.
@@ -501,6 +516,8 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
+| Battle of Atlantis | 1981 | MiSTer main distribution | `atlantis2.zip` | `atlantis.zip` |  |
+| Mars | 1981 | MiSTer main distribution | `mars.zip` | same |  |
 | Scramble | 1981 | MiSTer main distribution | `scrambp.zip` | same |  |
 | Super Cobra | 1981 | MiSTer main distribution | `scobra.zip` | same |  |
 
@@ -511,12 +528,21 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Fantasy Zone | 1986 | JOTEGO cores | `fantzone.zip` | same |  |
 | Fantasy Zone II | 1987 | MiSTer main distribution | `fantzn2.zip` | same |  |
 | SDI Strategic Defense Initiative | 1987 | JOTEGO cores | `sdib.zip` | `sdi.zip` |  |
+| Transformer | 1986 | MiSTer main distribution | `transfrm.zip` | same |  |
+
+### Sega G80
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Space Odyssey | 1981 | [GitHub](https://github.com/RodimusFVC/Arcade-SegaG80_MiSTer) | `spaceod.zip` | same |  |
 
 ### Sega System 1
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
 | 4-D Warriors | 1985 | MiSTer main distribution | `4dwarrio.zip` | same |  |
+| Brain | 1986 | [GitHub](https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer) | `brain.zip` | same |  |
+| Gardia | 1986 | [GitHub](https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer) | `gardia.zip` | same |  |
 | Rafflesia | 1986 | MiSTer main distribution | `raflesia.zip` | same |  |
 | Star Jacker | 1983 | MiSTer main distribution | `starjacks.zip` | same |  |
 
@@ -525,6 +551,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
 | Cotton | 1991 | JOTEGO cores | `cotton.zip` | same |  |
+| Fantasy Zone II (System 16C) | 2008 | JOTEGO cores | `fantzn2x.zip` | same |  |
 | Sonic Boom | 1987 | JOTEGO cores | `sonicbom.zip` | same |  |
 
 ### Sega System 18
@@ -690,6 +717,12 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 \* RayStorm: On first launch the game opens its test menu; choose FACTORY SETTING, then EXIT. The core saves this, so it only happens once.
 
+### Taito SJ
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Bio Attack | 1983 | MiSTer main distribution | `bioatack.zip` | same |  |
+
 ### Tecmo
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
@@ -791,6 +824,7 @@ Neo Geo games run on the Neo Geo core from the MiSTer main distribution and go i
 | Andro Dunos | 1992 | `androdun` | `androdun.neo`, `Title (androdun).neo`, or a `androdun` Darksoft or MAME zip or folder |
 | Blazing Star | 1998 | `blazstar` | `blazstar.neo`, `Title (blazstar).neo`, or a `blazstar` Darksoft or MAME zip or folder |
 | Captain Tomaday | 1999 | `ctomaday` | `ctomaday.neo`, `Title (ctomaday).neo`, or a `ctomaday` Darksoft or MAME zip or folder |
+| Choutetsu Brikin'ger / Iron Clad | 1996 | `ironclad` | `ironclad.neo`, `Title (ironclad).neo`, or a `ironclad` Darksoft or MAME zip or folder |
 | Ghost Pilots | 1991 | `gpilots` | `gpilots.neo`, `Title (gpilots).neo`, or a `gpilots` Darksoft or MAME zip or folder |
 | Last Resort | 1992 | `lresort` | `lresort.neo`, `Title (lresort).neo`, or a `lresort` Darksoft or MAME zip or folder |
 | Prehistoric Isle 2 | 1999 | `preisle2` | `preisle2.neo`, `Title (preisle2).neo`, or a `preisle2` Darksoft or MAME zip or folder |
@@ -828,24 +862,29 @@ armedf.zip
 ashuraj.zip
 aso.zip
 asuka.zip
+atlantis2.zip
 backfirt.zip
 batrider.zip
 batsugun.zip
 batsugunsp.zip
 bbakraid.zip
 bgaregga.zip
+bioatack.zip
 bioship.zip
 blastoff.zip
 blazeonj.zip
 blkheart.zip
 bluehawk.zip
 boogwinga.zip
+brain.zip
 brvblade.zip
 cairblad.zip
+catacomb.zip
 cavenger.zip
 cawing.zip
 chimerab.zip
 chukatai.zip
+cmissnx.zip
 cobracom.zip
 coh1000t.zip
 coh1002m.zip
@@ -870,6 +909,7 @@ ddpdfk.zip
 ddpdojblk.zip
 ddpsdoj.zip
 deathsml.zip
+decocass.zip
 desertwr.zip
 detatwin.zip
 dfeveron.zip
@@ -895,6 +935,7 @@ extrmatn.zip
 fa.zip
 fantjour.zip
 fantzn2.zip
+fantzn2x.zip
 fantzone.zip
 finalizr.zip
 firebarr.zip
@@ -910,6 +951,7 @@ futspy.zip
 gallopm72.zip
 galmedes.zip
 gametngk.zip
+gardia.zip
 gdarius.zip
 gekiridn.zip
 gemini.zip
@@ -957,6 +999,7 @@ macross.zip
 macross2.zip
 macrossp.zip
 madshark.zip
+mars.zip
 masterwj.zip
 mazinger.zip
 megablst.zip
@@ -1029,6 +1072,7 @@ sidearms.zip
 silkworm.zip
 skns.zip
 skyadvnt.zip
+skykid.zip
 skykiddx.zip
 skysmash.zip
 skysoldr.zip
@@ -1037,6 +1081,7 @@ slspirit.zip
 sokyugrt.zip
 soldivid.zip
 sonicbom.zip
+spaceod.zip
 spec2k.zip
 srdarwin.zip
 srdmissn.zip
@@ -1073,6 +1118,7 @@ tndrcade.zip
 tnextspcj.zip
 tokio.zip
 tp84.zip
+transfrm.zip
 truxton.zip
 truxton2.zip
 turbofrc.zip
@@ -1136,11 +1182,13 @@ armedf.zip
 ashura.zip
 aso.zip
 asuka.zip
+atlantis.zip
 backfirt.zip
 batrider.zip
 batsugun.zip
 bbakraid.zip
 bgaregga.zip
+bioatack.zip
 bioship.zip
 blastoff.zip
 blazeon.zip
@@ -1148,12 +1196,15 @@ blkheart.zip
 blswhstl.zip
 bluehawk.zip
 boogwinga.zip
+brain.zip
 brvblade.zip
 cairblad.zip
+catacomb.zip
 cavenger.zip
 cawing.zip
 chimerab.zip
 chukatai.zip
+cmissnx.zip
 cobracom.zip
 coh1000t.zip
 coh1002m.zip
@@ -1178,6 +1229,7 @@ ddp3.zip
 ddpdfk.zip
 ddpsdoj.zip
 deathsml.zip
+decocass.zip
 desertwr.zip
 dfkbl.zip
 dimahoo.zip
@@ -1200,6 +1252,7 @@ explbrkr.zip
 extrmatn.zip
 fantjour.zip
 fantzn2.zip
+fantzn2x.zip
 fantzone.zip
 feversos.zip
 fghtatck.zip
@@ -1215,6 +1268,7 @@ futaribl.zip
 futspy.zip
 galmedes.zip
 gametngk.zip
+gardia.zip
 gdarius2.zip
 gekiridn.zip
 gemini.zip
@@ -1261,6 +1315,7 @@ macross.zip
 macross2.zip
 macrossp.zip
 madshark.zip
+mars.zip
 masterw.zip
 mazinger.zip
 megablst.zip
@@ -1333,6 +1388,7 @@ sidearms.zip
 silkworm.zip
 skns.zip
 skyadvnt.zip
+skykid.zip
 skykiddx.zip
 skysmash.zip
 skysoldr.zip
@@ -1340,6 +1396,7 @@ slspirit.zip
 sokyugrt.zip
 soldivid.zip
 sonicbom.zip
+spaceod.zip
 spec2k.zip
 srdarwin.zip
 srdmissn.zip
@@ -1375,6 +1432,7 @@ tndrcade.zip
 tnextspc.zip
 tokio.zip
 tp84.zip
+transfrm.zip
 truxton.zip
 truxton2.zip
 turbofrc.zip

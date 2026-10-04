@@ -7,6 +7,7 @@ These games use the best art found so far, shown whole on the card. A portrait s
 | 1943 Kai: Midway Kaisen | Flyer squarer than a card, shown whole |
 | 1945k III | Title-screen art, not a flyer |
 | 4-D Warriors | Flyer squarer than a card, shown whole |
+| Bio Attack | Flyer taller than a card, shown whole |
 | Blast Off | Landscape flyer |
 | Boogie Wings | Landscape flyer |
 | Brave Blade | Landscape flyer |
@@ -18,10 +19,12 @@ These games use the best art found so far, shown whole on the card. A portrait s
 | Gyrodine | Flyer taller than a card, shown whole |
 | Koutetsu Yousai Strahl | Landscape flyer |
 | Master of Weapon | Flyer taller than a card, shown whole |
+| Mission-X | Flyer squarer than a card, shown whole |
 | Nebulas Ray | Flyer taller than a card, shown whole |
 | Omega Fighter | Flyer squarer than a card, shown whole |
 | Ordyne | Landscape flyer |
 | Rezon | Landscape flyer |
+| Space Odyssey | Flyer squarer than a card, shown whole |
 | Spectrum 2000 | Landscape instruction sheet, not a flyer |
 | Stagger I | Red Hawk export flyer, squarer than a card; no Stagger I flyer found |
 | Star Jacker | Flyer squarer than a card, shown whole |

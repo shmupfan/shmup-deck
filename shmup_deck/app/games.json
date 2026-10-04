@@ -6454,5 +6454,239 @@
    "shared": []
   },
   "rotation": "ccw"
+ },
+ {
+  "id": "skykid",
+  "title": "Sky Kid",
+  "dev": "Namco",
+  "year": 1985,
+  "core": "Namco",
+  "system": "Namco Sky Kid",
+  "orientation": "yoko",
+  "setnames": [
+   "skykid",
+   "skykido",
+   "skykidd",
+   "skykids"
+  ],
+  "rbf": "jtskykid",
+  "roms": {
+   "zip": "skykid",
+   "merged": "skykid",
+   "shared": []
+  }
+ },
+ {
+  "id": "transfrm",
+  "title": "Transformer",
+  "dev": "Sega",
+  "year": 1986,
+  "core": "Sega",
+  "system": "Sega System E",
+  "orientation": "yoko",
+  "setnames": [
+   "transfrm",
+   "astrofl"
+  ],
+  "rbf": "SMS",
+  "roms": {
+   "zip": "transfrm",
+   "merged": "transfrm",
+   "shared": []
+  }
+ },
+ {
+  "id": "fantzn2x",
+  "title": "Fantasy Zone II (System 16C)",
+  "dev": "Sega / M2",
+  "year": 2008,
+  "core": "Sega System 16B",
+  "system": "Sega System 16C",
+  "orientation": "yoko",
+  "setnames": [
+   "fantzn2x",
+   "fantzn2xp"
+  ],
+  "rbf": "jts16b",
+  "roms": {
+   "zip": "fantzn2x",
+   "merged": "fantzn2x",
+   "shared": []
+  }
+ },
+ {
+  "id": "ironclad",
+  "title": "Choutetsu Brikin'ger / Iron Clad",
+  "dev": "Saurus",
+  "year": 1996,
+  "core": "Neo Geo",
+  "system": "Neo Geo MVS",
+  "platform": "neogeo",
+  "orientation": "yoko",
+  "setnames": [
+   "ironclad"
+  ],
+  "rbf": "NeoGeo",
+  "roms": {
+   "zip": "ironclad",
+   "merged": "ironclad",
+   "shared": []
+  }
+ },
+ {
+  "id": "gardia",
+  "title": "Gardia",
+  "dev": "Coreland / Sega",
+  "year": 1986,
+  "core": "Sega System 1",
+  "system": "Sega System 1",
+  "orientation": "tate",
+  "setnames": [
+   "gardia",
+   "gardiaj"
+  ],
+  "rbf": "Blackwine-SegaSystem1-2",
+  "roms": {
+   "zip": "gardia",
+   "merged": "gardia",
+   "shared": []
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "brain",
+  "title": "Brain",
+  "dev": "Coreland / Sega",
+  "year": 1986,
+  "core": "Sega System 1",
+  "system": "Sega System 1",
+  "orientation": "yoko",
+  "setnames": [
+   "brain"
+  ],
+  "rbf": "Blackwine-SegaSystem1-2",
+  "roms": {
+   "zip": "brain",
+   "merged": "brain",
+   "shared": []
+  }
+ },
+ {
+  "id": "atlantis",
+  "title": "Battle of Atlantis",
+  "dev": "Comsoft",
+  "year": 1981,
+  "core": "Scramble",
+  "system": "Konami Scramble",
+  "orientation": "tate",
+  "setnames": [
+   "atlantis",
+   "atlantis2"
+  ],
+  "rbf": "scramble",
+  "roms": {
+   "zip": "atlantis2",
+   "merged": "atlantis",
+   "shared": []
+  },
+  "rotation": "cw"
+ },
+ {
+  "id": "mars",
+  "title": "Mars",
+  "dev": "Artic",
+  "year": 1981,
+  "core": "Scramble",
+  "system": "Konami Scramble",
+  "orientation": "tate",
+  "setnames": [
+   "mars"
+  ],
+  "rbf": "scramble",
+  "roms": {
+   "zip": "mars",
+   "merged": "mars",
+   "shared": []
+  },
+  "rotation": "cw"
+ },
+ {
+  "id": "cmissnx",
+  "title": "Mission-X",
+  "dev": "Data East",
+  "year": 1982,
+  "core": "DECO Cassette",
+  "system": "Data East DECO Cassette",
+  "orientation": "tate",
+  "setnames": [
+   "cmissnx"
+  ],
+  "rbf": "DECOCassette",
+  "roms": {
+   "zip": "cmissnx",
+   "merged": "cmissnx",
+   "shared": [
+    "decocass"
+   ]
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "catacomb",
+  "title": "Catacomb",
+  "dev": "MTM Games",
+  "year": 1982,
+  "core": "Galaxian",
+  "system": "Namco Galaxian",
+  "orientation": "tate",
+  "setnames": [
+   "catacomb"
+  ],
+  "rbf": "galaxian",
+  "roms": {
+   "zip": "catacomb",
+   "merged": "catacomb",
+   "shared": []
+  },
+  "rotation": "cw"
+ },
+ {
+  "id": "bioatack",
+  "title": "Bio Attack",
+  "dev": "Taito",
+  "year": 1983,
+  "core": "Taito SJ",
+  "system": "Taito SJ",
+  "orientation": "tate",
+  "setnames": [
+   "bioatack"
+  ],
+  "rbf": "TaitoSJ",
+  "roms": {
+   "zip": "bioatack",
+   "merged": "bioatack",
+   "shared": []
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "spaceod",
+  "title": "Space Odyssey",
+  "dev": "Sega",
+  "year": 1981,
+  "core": "Sega G80",
+  "system": "Sega G80 raster",
+  "orientation": "tate",
+  "setnames": [
+   "spaceod",
+   "spaceod2"
+  ],
+  "rbf": "SegaG80",
+  "roms": {
+   "zip": "spaceod",
+   "merged": "spaceod",
+   "shared": []
+  },
+  "rotation": "ccw"
  }
 ]

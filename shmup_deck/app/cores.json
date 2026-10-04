@@ -70,6 +70,11 @@
   "bgaregga_mister": {
    "source": "coinop"
   },
+  "Blackwine-SegaSystem1-2": {
+   "source": "github",
+   "url": "https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer",
+   "note": "Core and MRAs in the repository's _Arcade folder; a fork of the Sega System 1 core that adds Gardia and Brain"
+  },
   "BoogieWings": {
    "source": "official"
   },
@@ -109,6 +114,9 @@
   "deco16": {
    "source": "official"
   },
+  "DECOCassette": {
+   "source": "official"
+  },
   "Dogyuun": {
    "source": "github",
    "url": "https://github.com/TheJesusFish/Slop-Core",
@@ -144,6 +152,9 @@
   },
   "fshark_mister": {
    "source": "coinop"
+  },
+  "galaxian": {
+   "source": "official"
   },
   "galivan": {
    "source": "official"
@@ -262,6 +273,9 @@
    "source": "jotego"
   },
   "jtshouse": {
+   "source": "jotego"
+  },
+  "jtskykid": {
    "source": "jotego"
   },
   "jtthundr": {
@@ -407,6 +421,11 @@
   "scramble": {
    "source": "official"
   },
+  "SegaG80": {
+   "source": "github",
+   "url": "https://github.com/RodimusFVC/Arcade-SegaG80_MiSTer",
+   "note": "Core and MRA in the repository's releases folder"
+  },
   "segasys1": {
    "source": "official"
   },
@@ -477,6 +496,9 @@
    "note": "Core and MRAs in the repository's releases folder"
   },
   "TaitoF2": {
+   "source": "official"
+  },
+  "TaitoSJ": {
    "source": "official"
   },
   "Tecmo": {

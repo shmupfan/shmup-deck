@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/3b364300a8184ea981b0cd3c02fe71c16b2e47c2/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/1d8d7b90278b7e456cac59dda031c0b299760ad9/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -4130,6 +4130,125 @@
    708
   ],
   "upgrade": "Title-screen art, not a flyer",
+  "tone": 1
+ },
+ "skykid": {
+  "url": "https://images.launchbox-app.com/79b05750-532b-4b19-8346-24159437e3e3.jpg",
+  "size": [
+   1280,
+   1803
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1803
+  ],
+  "tone": 1
+ },
+ "transfrm": {
+  "url": "https://images.launchbox-app.com/e01e3d5e-d449-40ec-99e5-6cebffe2dac1.jpg",
+  "size": [
+   2474,
+   3447
+  ],
+  "crop": [
+   0,
+   0,
+   2474,
+   3447
+  ],
+  "tone": 1
+ },
+ "gardia": {
+  "url": "https://www.arcadeartwork.org/galleries/mmefly2b/gardiaj.png",
+  "size": [
+   997,
+   1400
+  ],
+  "crop": [
+   0,
+   0,
+   997,
+   1400
+  ],
+  "referer": "https://www.arcadeartwork.org/",
+  "tone": 1
+ },
+ "atlantis": {
+  "url": "https://flyers.arcade-museum.com/videogame-flyers/0/battle-of-atlantis-00104-01.jpg",
+  "size": [
+   850,
+   1245
+  ],
+  "crop": [
+   0,
+   0,
+   850,
+   1245
+  ],
+  "tone": 1
+ },
+ "mars": {
+  "url": "https://flyers.arcade-museum.com/videogame-flyers/0/mars-00616-01.jpg",
+  "size": [
+   850,
+   1211
+  ],
+  "crop": [
+   0,
+   0,
+   850,
+   1211
+  ],
+  "tone": 1
+ },
+ "cmissnx": {
+  "url": "https://images.launchbox-app.com/2639e5a5-6dcf-4ef2-a909-3b10c58d8c9f.jpg",
+  "size": [
+   1280,
+   1675
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1675
+  ],
+  "fit": "contain",
+  "upgrade": "Flyer squarer than a card, shown whole",
+  "tone": 1
+ },
+ "bioatack": {
+  "url": "https://images.launchbox-app.com/77d6106f-89c3-49ca-8394-304e65f3ea57.jpg",
+  "size": [
+   1166,
+   2017
+  ],
+  "crop": [
+   0,
+   0,
+   1166,
+   2017
+  ],
+  "fit": "contain",
+  "upgrade": "Flyer taller than a card, shown whole",
+  "tone": 1
+ },
+ "spaceod": {
+  "url": "https://images.launchbox-app.com/ce44519b-23df-4ed9-8af0-9f720e8b0449.jpg",
+  "size": [
+   1276,
+   1657
+  ],
+  "crop": [
+   0,
+   0,
+   1276,
+   1657
+  ],
+  "fit": "contain",
+  "upgrade": "Flyer squarer than a card, shown whole",
   "tone": 1
  }
 }
