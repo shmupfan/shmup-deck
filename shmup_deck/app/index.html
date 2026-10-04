@@ -14,6 +14,7 @@
 /* display type: Press Start 2P (SIL OFL, fonts/OFL.txt), bundled so it works offline */
 @font-face{font-family:"Press Start 2P";src:url("fonts/PressStart2P-Regular.ttf") format("truetype");font-display:swap}
 :root{
+  --wrap:clamp(1080px,86vw,2200px);   /* page width: grows on big screens so the wall uses them */
   --pit:#07100B;        /* cabinet dark green-black */
   --felt:#0C1A12;       /* card well */
   --emerald:#2FAE6E;
@@ -38,7 +39,7 @@ body{
 
 /* site header: brand on the left, page tabs and settings on the right */
 header{
-  max-width:1080px;margin:0 auto 22px;padding-bottom:18px;border-bottom:1px solid var(--line);
+  max-width:var(--wrap);margin:0 auto 22px;padding-bottom:18px;border-bottom:1px solid var(--line);
   display:flex;align-items:center;gap:18px;flex-wrap:wrap;
 }
 .strapline .conn{display:inline-flex;align-items:center;gap:7px;margin-left:8px;color:var(--emerald-hot)}
@@ -71,7 +72,7 @@ nav .cog{position:relative}
 nav .cog.update::after{content:"";position:absolute;top:5px;right:5px;width:9px;height:9px;border-radius:50%;background:var(--gold);box-shadow:0 0 0 2px #07100B}
 nav a:focus-visible,nav .cog:focus-visible{outline:2px solid var(--emerald-hot);outline-offset:2px}
 /* search, full width */
-.searchrow{max-width:1080px;margin:0 auto 16px}
+.searchrow{max-width:var(--wrap);margin:0 auto 16px}
 .field{position:relative;display:flex;align-items:center}
 .field svg{position:absolute;left:18px;width:18px;height:18px;fill:none;stroke:var(--ash);stroke-width:2;stroke-linecap:round;pointer-events:none}
 .field kbd{
@@ -79,12 +80,12 @@ nav a:focus-visible,nav .cog:focus-visible{outline:2px solid var(--emerald-hot);
   font-family:inherit;font-size:12px;color:var(--ash);pointer-events:none;
 }
 /* filters: the count on the left, segments on the right */
-.filters{max-width:1080px;margin:0 auto 12px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+.filters{max-width:var(--wrap);margin:0 auto 12px;display:flex;align-items:center;gap:14px;flex-wrap:wrap}
 .segs{margin-left:auto;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
-.hint{max-width:1080px;margin:0 auto 12px;font-size:12px;color:var(--gold)}
+.hint{max-width:var(--wrap);margin:0 auto 12px;font-size:12px;color:var(--gold)}
 .hint[hidden]{display:none}
 .seg.ask{border-color:var(--gold);box-shadow:0 0 0 3px rgba(216,181,74,.18)}
-.grouprow{max-width:1080px;margin:0 auto 18px}
+.grouprow{max-width:var(--wrap);margin:0 auto 18px}
 .dropdown{
   position:relative;display:inline-flex;align-items:center;gap:8px;
   padding:0 12px 0 14px;border:1px solid var(--line);border-radius:10px;background:rgba(0,0,0,.25);
@@ -186,7 +187,7 @@ body.compact .divider h2{font-size:20px}
 
 /* now playing banner */
 .now{
-  max-width:1080px;margin:0 auto 22px;display:flex;align-items:center;gap:14px;
+  max-width:var(--wrap);margin:0 auto 22px;display:flex;align-items:center;gap:14px;
   padding:10px 14px;border:1px solid rgba(84,226,154,.35);border-radius:10px;
   background:rgba(47,174,110,.08);
 }
@@ -208,9 +209,13 @@ body.compact .divider h2{font-size:20px}
 }
 
 .deck{
-  max-width:1080px;margin:0 auto;
+  max-width:var(--wrap);margin:0 auto;
   display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));
   gap:26px;
+}
+/* iPad mini portrait and Split View: three columns, not two very large cards */
+@media (min-width: 561px) and (max-width: 900px){
+  .deck{grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:20px}
 }
 
 /* ── TATE card: portrait, like the cab flyer on a marquee ── */
@@ -226,7 +231,9 @@ body.compact .divider h2{font-size:20px}
   -webkit-user-select:none;user-select:none;-webkit-touch-callout:none;
   transition:transform .25s cubic-bezier(.2,.9,.3,1.2), border-color .25s;
 }
-.cab:hover,.cab:focus-visible{transform:translateY(-5px);border-color:var(--gold)}
+.cab:focus-visible{transform:translateY(-5px);border-color:var(--gold)}
+/* only with a real pointer: a tap on an iPad would leave the card lifted */
+@media (hover: hover){ .cab:hover{transform:translateY(-5px);border-color:var(--gold)} }
 .cab:focus-visible{outline:2px solid var(--emerald-hot);outline-offset:3px}
 .cab.playing{border-color:var(--emerald-hot)}
 /* Flyers arrive as raw scans of slightly different shapes. Each card is a
@@ -303,7 +310,7 @@ body.compact .plate .vers{display:none}
 .krow{display:flex;align-items:center;gap:16px;margin-top:14px}
 .kdeck{max-width:55%;padding:6px 10px;border-radius:8px;border:1px solid var(--line);background:rgba(0,0,0,.25);color:var(--bone);font-family:inherit;font-size:13px}
 /* decks: named lists kept on the MiSTer */
-.deckrow{max-width:1080px;margin:0 auto 18px}
+.deckrow{max-width:var(--wrap);margin:0 auto 18px}
 .deckrow .decks{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
 .deckrow .dk{
   padding:7px 13px;border-radius:999px;border:1px solid var(--line);background:rgba(0,0,0,.25);
@@ -318,7 +325,7 @@ body.compact .plate .vers{display:none}
 }
 .deckrow input:focus{outline:2px solid var(--emerald);outline-offset:1px}
 .deckbar{
-  max-width:1080px;margin:0 auto 18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+  max-width:var(--wrap);margin:0 auto 18px;display:flex;align-items:center;gap:10px;flex-wrap:wrap;
   padding:10px 14px;border:1px solid rgba(216,181,74,.45);border-radius:10px;background:rgba(216,181,74,.06);
 }
 .deckbar[hidden]{display:none}
@@ -513,7 +520,7 @@ body.kiosk .exitspot{display:block}
   .plate .meta{font-size:10px;letter-spacing:.14em}
   .divider h2{font-size:21px}
 }
-footer{max-width:1080px;margin:40px auto 0;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#44523f;line-height:1.8}
+footer{max-width:var(--wrap);margin:40px auto 0;font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#44523f;line-height:1.8}
 footer a{color:inherit}
 </style>
 </head>

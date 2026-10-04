@@ -2,6 +2,12 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.6 (2026-10-04)
+
+- On an iPad mini in portrait, or an iPad in Split View, the wall shows three columns of cards instead of two very large ones.
+- On large screens the wall grows with the window: six columns on a 1920 monitor and eight on a 2560 one, where it used to stop at four.
+- On a touch screen, tapping a card no longer leaves it raised. Cards still lift under a mouse or trackpad.
+
 ## 1.12.5 (2026-10-03)
 
 - Two games on kyledlester's new cores: Nostradamus (Face, 1993) with its Japan and Korea sets, and Nebulas Ray (Namco, 1994) with its Japan set. Both cores are betas outside Update All, so these cards appear once the core is installed. Nebulas Ray also needs namcoc75.zip (issue #11).

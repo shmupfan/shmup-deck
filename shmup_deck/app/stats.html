@@ -11,6 +11,7 @@
 /* display type: Press Start 2P (SIL OFL, fonts/OFL.txt), bundled so it works offline */
 @font-face{font-family:"Press Start 2P";src:url("fonts/PressStart2P-Regular.ttf") format("truetype");font-display:swap}
 :root{
+  --wrap:clamp(1080px,86vw,2200px);   /* page width: grows on big screens so the wall uses them */
   --pit:#07100B;
   --felt:#0C1A12;
   --line:#1d3326;
@@ -30,7 +31,7 @@ body{
   padding:max(20px, env(safe-area-inset-top)) 20px 48px;
 }
 a{color:var(--gold)}
-.wrap{max-width:1080px;margin:0 auto}
+.wrap{max-width:var(--wrap);margin:0 auto}
 header{margin-bottom:22px;padding-bottom:18px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:18px;flex-wrap:wrap}
 h1{
   font-family:"Press Start 2P","Courier New",monospace;
