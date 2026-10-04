@@ -7,7 +7,7 @@ on:
     paths: ["decks/**"]
   push:
     branches: [main]
-    paths: ["decks/**", "shmup_deck/app/games.json", "tools/build_deck_index.py"]
+    paths: ["decks/**", "shmup_deck/app/games.json", "tools/build_deck_index.py", ".github/workflows/decks.yml"]
 
 permissions:
   contents: write
@@ -17,8 +17,8 @@ jobs:
     if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - name: Validate the shared decks
         run: python3 tools/build_deck_index.py --check
@@ -27,8 +27,8 @@ jobs:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with: { python-version: "3.12" }
       - name: Rebuild the index
         run: python3 tools/build_deck_index.py
@@ -37,4 +37,9 @@ jobs:
           git config user.name "shmup-deck index"
           git config user.email "noreply@github.com"
           git add decks/index.json
-          git diff --cached --quiet || git commit -m "Rebuild the shared decks index" && git push
+          # push only a real change, on top of anything pushed since this run started
+          if ! git diff --cached --quiet; then
+            git commit -m "Rebuild the shared decks index"
+            git pull --rebase origin main
+            git push
+          fi
