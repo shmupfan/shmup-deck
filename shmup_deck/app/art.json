@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/a915c58b0f3a15358268ed001ed1e7771dd7fa8f/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/3b364300a8184ea981b0cd3c02fe71c16b2e47c2/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -4115,6 +4115,21 @@
    1280,
    1815
   ],
+  "tone": 1
+ },
+ "1945kiii": {
+  "url": "https://raw.githubusercontent.com/libretro-thumbnails/MAME/98a416763471b2325914712aec42b9fe7cf5d37b/Named_Boxarts/1945k%20III.png",
+  "size": [
+   512,
+   708
+  ],
+  "crop": [
+   0,
+   0,
+   512,
+   708
+  ],
+  "upgrade": "Title-screen art, not a flyer",
   "tone": 1
  }
 }

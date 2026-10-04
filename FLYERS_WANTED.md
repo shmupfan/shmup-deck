@@ -5,6 +5,7 @@ These games use the best art found so far, shown whole on the card. A portrait s
 | Game | Current art |
 | --- | --- |
 | 1943 Kai: Midway Kaisen | Flyer squarer than a card, shown whole |
+| 1945k III | Title-screen art, not a flyer |
 | 4-D Warriors | Flyer squarer than a card, shown whole |
 | Blast Off | Landscape flyer |
 | Boogie Wings | Landscape flyer |
