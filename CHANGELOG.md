@@ -2,6 +2,11 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.12 (2026-10-08)
+
+- Back to menu works on phones while a game is running. The running game's card at the top of the wall now carries a Back to MiSTer menu button, so it no longer goes away when you tap past the Now playing screen, or when the game was started from another device or the MiSTer itself.
+- The Back to menu setting says that it is set on each device, since a phone and a computer each need it switched on.
+
 ## 1.12.11 (2026-10-07)
 
 - Six games on the new shmupfan Taito G-NET core: RayCrisis, Psyvariar -Medium Unit-, Psyvariar -Revision-, Night Raid, Shikigami no Shiro and XII Stag, with the Japanese versions of RayCrisis and Psyvariar -Medium Unit-. The core comes from the shmupfan database (github.com/shmupfan/Distribution) or its repository, and the cards appear once the core is installed. 317 games in all.
