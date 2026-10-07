@@ -21,9 +21,12 @@ These games use the best art found so far, shown whole on the card. A portrait s
 | Master of Weapon | Flyer taller than a card, shown whole |
 | Mission-X | Flyer squarer than a card, shown whole |
 | Nebulas Ray | Flyer taller than a card, shown whole |
+| Night Raid | Landscape flyer |
 | Omega Fighter | Flyer squarer than a card, shown whole |
 | Ordyne | Landscape flyer |
+| Psyvariar -Revision- | Landscape flyer |
 | Rezon | Landscape flyer |
+| Shikigami no Shiro | Flyer squarer than a card, shown whole |
 | Space Odyssey | Flyer squarer than a card, shown whole |
 | Spectrum 2000 | Landscape instruction sheet, not a flyer |
 | Stagger I | Red Hawk export flyer, squarer than a card; no Stagger I flyer found |

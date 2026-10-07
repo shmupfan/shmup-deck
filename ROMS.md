@@ -1,6 +1,6 @@
 # Supported games and ROMs
 
-Shmup Deck supports 311 games: 296 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
+Shmup Deck supports 317 games: 302 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
 
 To see what your own MiSTer is missing, open **http://shmupdeck.local/check.html** once Shmup Deck is installed. It checks every game for its MRA, core and ROM zips and can copy the missing zip names.
 
@@ -66,6 +66,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Taito B | 3 | [Mezzow/Arcade-TaitoB_MiSTer](https://github.com/Mezzow/Arcade-TaitoB_MiSTer) | Core and MRAs in the repository's releases folder |
 | Taito F3 | 5 | [spacestate1/Arcade-taitoF3_MiSTer](https://github.com/spacestate1/Arcade-taitoF3_MiSTer) |  |
 | Taito FX-1B | 2 | [XelaNotPu/ZN1-TaitoFX1B_MiSTer](https://github.com/XelaNotPu/ZN1-TaitoFX1B_MiSTer) |  |
+| Taito G-NET | 6 | [shmupfan/Arcade-TaitoGNET_MiSTer](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution). For now, the CHDs need a one-off conversion (https://gnet-converter.pages.dev) |
 | Tecmo16 | 1 | [shmupfan/Arcade-Tecmo16_MiSTer](https://github.com/shmupfan/Arcade-Tecmo16_MiSTer) | Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution) |
 | Toaplan | 5 | [TheJesusFish/Slop-Core](https://github.com/TheJesusFish/Slop-Core) | Core and MRAs in the repository's _Arcade folder |
 | TwinHawk | 1 | [bazset/Twin-Hawk-FPGA](https://github.com/bazset/Twin-Hawk-FPGA) | MRAs in the repository; the core build is on the author's Patreon |
@@ -722,6 +723,24 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 \* RayStorm: On first launch the game opens its test menu; choose FACTORY SETTING, then EXIT. The core saves this, so it only happens once.
 
+### Taito G-NET
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Night Raid * | 2001 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_nightrai.zip` | same | `coh3002t.zip` |
+| Psyvariar -Medium Unit- * | 2000 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_psyvaria.zip` | same | `coh3002t.zip` |
+| Psyvariar -Revision- * | 2000 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_psyvarrv.zip` | same | `coh3002t.zip` |
+| RayCrisis * | 1998 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_raycris.zip` | same | `coh3002t.zip` |
+| Shikigami no Shiro * | 2001 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_shikigam.zip` | same | `coh3002t.zip` |
+| XII Stag * | 2002 | [GitHub](https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer) | `gnet_xiistag.zip` | same | `coh3002t.zip` |
+
+\* RayCrisis: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_raycris.zip and the zips of its other versions. coh3002t.zip is MAME's G-NET BIOS.
+\* Psyvariar -Medium Unit-: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_psyvaria.zip and the zips of its other versions. coh3002t.zip is MAME's G-NET BIOS.
+\* Psyvariar -Revision-: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_psyvarrv.zip. coh3002t.zip is MAME's G-NET BIOS.
+\* Night Raid: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_nightrai.zip. coh3002t.zip is MAME's G-NET BIOS.
+\* Shikigami no Shiro: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_shikigam.zip. coh3002t.zip is MAME's G-NET BIOS.
+\* XII Stag: For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_xiistag.zip. coh3002t.zip is MAME's G-NET BIOS.
+
 ### Taito SJ
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
@@ -886,6 +905,7 @@ cobracom.zip
 coh1000t.zip
 coh1002m.zip
 coh1002v.zip
+coh3002t.zip
 cotton.zip
 cotton2.zip
 cottonbm.zip
@@ -954,6 +974,12 @@ gekiridn.zip
 gemini.zip
 gigandes.zip
 gigawing.zip
+gnet_nightrai.zip
+gnet_psyvaria.zip
+gnet_psyvarrv.zip
+gnet_raycris.zip
+gnet_shikigam.zip
+gnet_xiistag.zip
 gradius.zip
 gradius3.zip
 gratia.zip
@@ -1204,6 +1230,7 @@ cobracom.zip
 coh1000t.zip
 coh1002m.zip
 coh1002v.zip
+coh3002t.zip
 cosmccop.zip
 cotton.zip
 cotton2.zip
@@ -1269,6 +1296,12 @@ gekiridn.zip
 gemini.zip
 gigandes.zip
 gigawing.zip
+gnet_nightrai.zip
+gnet_psyvaria.zip
+gnet_psyvarrv.zip
+gnet_raycris.zip
+gnet_shikigam.zip
+gnet_xiistag.zip
 gradius3.zip
 gratia.zip
 grdforce.zip

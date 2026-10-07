@@ -8,7 +8,7 @@ itself: nothing to host, no PC, no other service to install.
 
 ![Shmup Deck trailer: DoDonPachi sprites, the flyer wall, and tapping a flyer to launch the game](docs/deck.gif)
 
-- 311 shooters on 117 arcade boards: Toaplan, Cave, CV1000, CPS1/CPS2, PGM,
+- 317 shooters on 118 arcade boards: Toaplan, Cave, CV1000, CPS1/CPS2, PGM,
   Psikyo, Raizing, Konami, Irem, NMK, Taito, Seta, Sega ST-V, Neo Geo and more
 - Only games installed on your SD card show, unless you ask to see the rest
 - Filter by screen (tate or yoko) and region; sort by name, year or plays;
@@ -80,6 +80,9 @@ drifting by when idle. Turn it on in Settings or open
   folder layout
 - The cores for those games
 - For Neo Geo: the Neo Geo core and games in `games/NeoGeo`
+- For Taito G-NET: for now, the CHDs need a one-off conversion
+  (https://gnet-converter.pages.dev) into the zips the core reads; ROMS.md
+  lists them
 
 [ROMS.md](ROMS.md) lists every game with its core, where to get it and the ROM
 zips it needs. **http://shmupdeck.local/check.html** checks all of this against

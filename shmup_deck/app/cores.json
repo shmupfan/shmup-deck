@@ -501,6 +501,11 @@
   "TaitoF2": {
    "source": "official"
   },
+  "TaitoGNET": {
+   "source": "shmupfan",
+   "url": "https://github.com/shmupfan/Arcade-TaitoGNET_MiSTer",
+   "note": "Core and MRAs in the repository's releases folder, or from the shmupfan database (github.com/shmupfan/Distribution). For now, the CHDs need a one-off conversion (https://gnet-converter.pages.dev)"
+  },
   "TaitoSJ": {
    "source": "official"
   },

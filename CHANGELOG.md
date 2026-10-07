@@ -2,6 +2,13 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.11 (2026-10-07)
+
+- Six games on the new shmupfan Taito G-NET core: RayCrisis, Psyvariar -Medium Unit-, Psyvariar -Revision-, Night Raid, Shikigami no Shiro and XII Stag, with the Japanese versions of RayCrisis and Psyvariar -Medium Unit-. The core comes from the shmupfan database (github.com/shmupfan/Distribution) or its repository, and the cards appear once the core is installed. 317 games in all.
+- Each G-NET game needs coh3002t.zip (the G-NET BIOS from MAME) and its own gnet_ zip in games/mame. For now, the CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes those zips. ROMS.md lists them.
+- Flyers for all six. Night Raid and Psyvariar -Revision- only have landscape flyers, so they show whole.
+- RayCrisis joins the Taito deck.
+
 ## 1.12.10 (2026-10-04)
 
 - Two more scrolling shooters from issue #12: SD Gundam Psycho Salamander no Kyoui (SDGundamPS core, in Update All) and Sky Robo, with its Japanese version Tatakae! Big Fighter (Armed F core, Coin-Op Collection). Both with flyers.

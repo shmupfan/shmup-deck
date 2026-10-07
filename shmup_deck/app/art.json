@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/4adff2f468ef7c8b9741819b960fd42e9cdfe0c5/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/9f54c2112d544541ecfd1f9aea38c018c127cfd1/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -4234,6 +4234,96 @@
    0,
    1280,
    1800
+  ],
+  "tone": 1
+ },
+ "raycris": {
+  "url": "https://images.launchbox-app.com/8d1b1459-b6fc-4765-9f80-ee7a9cc1e1f3.jpg",
+  "size": [
+   729,
+   1041
+  ],
+  "crop": [
+   0,
+   0,
+   729,
+   1041
+  ],
+  "tone": 1
+ },
+ "psyvaria": {
+  "url": "https://images.launchbox-app.com/f4cf5473-9287-46ce-a48d-815bcf49c2b1.jpg",
+  "size": [
+   1280,
+   1794
+  ],
+  "crop": [
+   0,
+   0,
+   1280,
+   1794
+  ],
+  "tone": 1
+ },
+ "psyvarrv": {
+  "url": "https://images.launchbox-app.com/271b7471-6e57-4fa4-b083-02ebd5f0840a.jpg",
+  "size": [
+   1600,
+   1131
+  ],
+  "crop": [
+   0,
+   0,
+   1600,
+   1131
+  ],
+  "fit": "contain",
+  "upgrade": "Landscape flyer",
+  "tone": 1
+ },
+ "nightrai": {
+  "url": "https://images.launchbox-app.com/r2_7a83b719-9c7c-4e39-9f8c-04ec660ae8be.png",
+  "size": [
+   1576,
+   998
+  ],
+  "crop": [
+   0,
+   0,
+   1576,
+   998
+  ],
+  "fit": "contain",
+  "upgrade": "Landscape flyer",
+  "tone": 1
+ },
+ "shikigam": {
+  "url": "https://images.launchbox-app.com/ccc04ffe-c015-4e2a-8611-7aa547df40cd.png",
+  "size": [
+   1700,
+   2108
+  ],
+  "crop": [
+   0,
+   0,
+   1700,
+   2108
+  ],
+  "fit": "contain",
+  "upgrade": "Flyer squarer than a card, shown whole",
+  "tone": 1
+ },
+ "xiistag": {
+  "url": "https://images.launchbox-app.com/23d5c39d-938b-47ee-adfb-514235d70a40.jpg",
+  "size": [
+   850,
+   1203
+  ],
+  "crop": [
+   0,
+   0,
+   850,
+   1203
   ],
   "tone": 1
  }

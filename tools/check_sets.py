@@ -8,7 +8,8 @@ A card matches MRAs by set name, so a Japanese version with its own title
 found if its set name is on the card. MAME's driver source is the reference:
 every GAME line names a set and its parent. For each card this lists the
 parent's clones that no card carries, leaving out hacks, bootlegs and
-prototypes, sets that turn the monitor the other way from the card (a
+prototypes (and internal builds, MAME's name for a development
+version), sets that turn the monitor the other way from the card (a
 horizontal Red Hawk under the tate Stagger I), and anything in SKIP. --fix
 appends them to the card.
 
@@ -26,7 +27,7 @@ from check_orientation import GAMES, driver_map, expected, fetch  # noqa: E402
 GAME_LINE = re.compile(
     r'^\s*GAME[A-Z_]*\(\s*\d{4}\??,\s*(\w+),\s*(\w*),\s*[\w<>]+,\s*[\w<>]+,\s*[\w<>]+,\s*[\w<>]+,\s*(ROT\d+|ORIENTATION_[A-Z_]+),\s*"([^"]*)",\s*"([^"]*)"(.*)$',
     re.M)
-LEAVE_OUT = ("hack", "bootleg", "prototype", "homebrew")
+LEAVE_OUT = ("hack", "bootleg", "prototype", "internal build", "homebrew")
 # sets of the same parent that are not versions of the card's game
 SKIP = {
     "coh1000t", "sfchamp", "psyforce", "mgcldtex", "ftimpcta",  # other Taito FX-1 games, clones of the BIOS set

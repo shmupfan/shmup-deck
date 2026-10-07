@@ -6644,5 +6644,137 @@
    "merged": "skyrobo",
    "shared": []
   }
+ },
+ {
+  "id": "raycris",
+  "title": "RayCrisis",
+  "dev": "Taito",
+  "year": 1998,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "yoko",
+  "setnames": [
+   "raycris",
+   "raycrisj"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_raycris",
+   "merged": "gnet_raycris",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_raycris.zip and the zips of its other versions. coh3002t.zip is MAME's G-NET BIOS"
+  }
+ },
+ {
+  "id": "psyvaria",
+  "title": "Psyvariar -Medium Unit-",
+  "dev": "Success",
+  "year": 2000,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "tate",
+  "setnames": [
+   "psyvaria",
+   "psyvarij"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_psyvaria",
+   "merged": "gnet_psyvaria",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_psyvaria.zip and the zips of its other versions. coh3002t.zip is MAME's G-NET BIOS"
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "psyvarrv",
+  "title": "Psyvariar -Revision-",
+  "dev": "Success",
+  "year": 2000,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "tate",
+  "setnames": [
+   "psyvarrv"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_psyvarrv",
+   "merged": "gnet_psyvarrv",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_psyvarrv.zip. coh3002t.zip is MAME's G-NET BIOS"
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "nightrai",
+  "title": "Night Raid",
+  "dev": "Takumi",
+  "year": 2001,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "yoko",
+  "setnames": [
+   "nightrai"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_nightrai",
+   "merged": "gnet_nightrai",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_nightrai.zip. coh3002t.zip is MAME's G-NET BIOS"
+  }
+ },
+ {
+  "id": "shikigam",
+  "title": "Shikigami no Shiro",
+  "dev": "Alfa System / Taito",
+  "year": 2001,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "tate",
+  "setnames": [
+   "shikigam"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_shikigam",
+   "merged": "gnet_shikigam",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_shikigam.zip. coh3002t.zip is MAME's G-NET BIOS"
+  },
+  "rotation": "ccw"
+ },
+ {
+  "id": "xiistag",
+  "title": "XII Stag",
+  "dev": "Triangle Service",
+  "year": 2002,
+  "core": "Taito G-NET",
+  "system": "Taito G-NET",
+  "orientation": "tate",
+  "setnames": [
+   "xiistag"
+  ],
+  "rbf": "TaitoGNET",
+  "roms": {
+   "zip": "gnet_xiistag",
+   "merged": "gnet_xiistag",
+   "shared": [
+    "coh3002t"
+   ],
+   "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_xiistag.zip. coh3002t.zip is MAME's G-NET BIOS"
+  },
+  "rotation": "ccw"
  }
 ]
