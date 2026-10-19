@@ -400,9 +400,29 @@ body.kiosk .now{
 }
 body.kiosk .now .what{font-size:17px}
 /* leave kiosk: hold the top-left corner */
-.exitspot{display:none;position:fixed;top:0;left:0;width:72px;height:72px;z-index:30;background:transparent}
+/* below the notch and status bar, and a held finger is never taken for a scroll or the long-press menu */
+.exitspot{
+  display:none;position:fixed;top:env(safe-area-inset-top);left:env(safe-area-inset-left);width:72px;height:72px;z-index:30;background:transparent;
+  touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;
+}
+/* touch screens: a label by the corner says how to leave, on the way in and whenever the corner is pressed */
+.khint{
+  position:fixed;top:calc(env(safe-area-inset-top) + 22px);left:calc(env(safe-area-inset-left) + 22px);z-index:31;
+  border:1px solid var(--gold);border-radius:999px;background:rgba(7,16,11,.92);color:var(--bone);
+  padding:8px 14px;font-size:13px;box-shadow:0 8px 30px -8px rgba(0,0,0,.9);
+  opacity:0;pointer-events:none;transition:opacity .4s;
+}
+body.kiosk .khint.show{opacity:1}
 body.kiosk .exitspot{display:block}
 .exitspot.holding{background:radial-gradient(circle at 0 0, rgba(216,181,74,.35), transparent 70%)}
+/* with a mouse there is no corner to hold: moving it shows an exit button for a few seconds */
+.kexit{
+  position:fixed;top:14px;left:14px;z-index:31;border:1px solid var(--line);border-radius:999px;
+  background:rgba(7,16,11,.88);color:var(--bone);padding:8px 16px;font-family:inherit;font-size:13px;cursor:pointer;
+  box-shadow:0 8px 30px -8px rgba(0,0,0,.9);opacity:0;pointer-events:none;transition:opacity .3s;
+}
+body.kiosk .kexit.show{opacity:1;pointer-events:auto}
+.kexit:hover{border-color:var(--gold);color:var(--gold)}
 /* attract: flyers drift by while nobody is touching the screen */
 .attract{position:fixed;top:0;left:0;right:0;height:100vh;height:100dvh;z-index:20;overflow:hidden;background:#000;display:flex;align-items:center;justify-content:center;flex-direction:column;gap:18px}
 .attract[hidden]{display:none}
@@ -598,7 +618,7 @@ footer a{color:inherit}
     <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M7 12h10M10 17h4"/></svg>
   </button>
 </div>
-<div class="chips" id="chips" aria-label="Active filters"></div>
+<div class="chips" id="chips" role="group" aria-label="Active filters"></div>
 <p class="hint ask" id="versHint" hidden>Cards marked &ldquo;4 sets&rdquo; have more than one version available. Tap the label, or press and hold the card, to choose which one to launch.</p>
 <div class="sheet fsheet" id="fsheet" hidden></div>
 <div class="sheet vsheet" id="ksheet" hidden>
@@ -687,6 +707,8 @@ footer a{color:inherit}
 </div>
 <main class="deck" id="deck"></main>
 <div class="exitspot" id="exitspot" aria-hidden="true"></div>
+<button class="kexit" id="kexit" tabindex="-1">Exit kiosk</button>
+<div class="khint" id="khint" aria-hidden="true"></div>
 <div class="nowfull" id="nowfull" hidden>
   <div class="blur" id="nowBlur"></div>
   <div class="pic" id="nowPic"></div>
@@ -1164,6 +1186,14 @@ placeFilters();
    drifting by when nobody has touched it for a minute. Switched on in
    settings or with ?kiosk in the address; left by holding the top-left corner. */
 let wakeLock = null, attractTimer = null, attractCycle = null, attractOn = false;
+const TOUCH = matchMedia("(hover: none)");
+let khintTimer = null;
+function kioskHint(text, ms) {
+  const h = $("#khint");
+  h.textContent = text; h.classList.add("show");
+  clearTimeout(khintTimer);
+  khintTimer = setTimeout(() => h.classList.remove("show"), ms);
+}
 async function keepAwake() {
   if (!navigator.wakeLock || wakeLock) return;
   try { wakeLock = await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release", () => { wakeLock = null; }); }
@@ -1175,6 +1205,7 @@ function enterKiosk(fromTap) {
   openSettings(false); openFilters(false);
   keepAwake();
   if (fromTap && document.documentElement.requestFullscreen) document.documentElement.requestFullscreen().catch(() => {});
+  if (TOUCH.matches) kioskHint("Hold this corner for 2 seconds to exit kiosk", 6000);
   armAttract();
   renderDeck();
 }
@@ -1208,10 +1239,29 @@ const spot = $("#exitspot");
 let holdTimer = null;
 spot.addEventListener("pointerdown", e => {
   e.preventDefault(); spot.classList.add("holding");
+  if (e.pointerType !== "mouse") kioskHint("Keep holding to exit kiosk", 2500);
   holdTimer = setTimeout(() => { spot.classList.remove("holding"); leaveKiosk(); }, 2000);
 });
 for (const ev of ["pointerup", "pointercancel", "pointerleave"])
-  spot.addEventListener(ev, () => { clearTimeout(holdTimer); spot.classList.remove("holding"); });
+  spot.addEventListener(ev, () => {
+    // let go too soon: say how long to hold
+    if (holdTimer && spot.classList.contains("holding") && TOUCH.matches) kioskHint("Hold for 2 seconds to exit kiosk", 3000);
+    clearTimeout(holdTimer); holdTimer = null; spot.classList.remove("holding");
+  });
+// a mouse gets a visible way out instead: it shows while the mouse moves and fades when it stops
+const kexit = $("#kexit");
+let kexitTimer = null;
+document.addEventListener("pointermove", e => {
+  if (e.pointerType !== "mouse" || !document.body.classList.contains("kiosk")) return;
+  kexit.classList.add("show");
+  clearTimeout(kexitTimer);
+  kexitTimer = setTimeout(() => { if (!kexit.matches(":hover")) kexit.classList.remove("show"); }, 3000);
+});
+kexit.addEventListener("pointerleave", () => {
+  clearTimeout(kexitTimer);
+  kexitTimer = setTimeout(() => kexit.classList.remove("show"), 3000);
+});
+kexit.addEventListener("click", () => { kexit.classList.remove("show"); leaveKiosk(); });
 
 const ATTRACT_AFTER = 60_000, ATTRACT_EVERY = 8_000;
 const marqueePref = () => localStorage.getItem(LS.marquee) !== "off";
