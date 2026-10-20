@@ -1,6 +1,6 @@
 # Supported games and ROMs
 
-Shmup Deck supports 317 games: 302 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
+Shmup Deck supports 318 games: 303 arcade games that run from MRA files and 15 Neo Geo games. This page lists the core and ROM files each one needs.
 
 To see what your own MiSTer is missing, open **http://shmupdeck.local/check.html** once Shmup Deck is installed. It checks every game for its MRA, core and ROM zips and can copy the missing zip names.
 
@@ -46,6 +46,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Konami | 4 | [ppriest/Arcade-KonamiGX_MiSTer](https://github.com/ppriest/Arcade-KonamiGX_MiSTer) | Core and MRAs in the repository's releases folder; a work-in-progress beta. Every game also needs konamigx.zip |
 | Mega System 1 | 3 | [kuzearcade/Arcade-JalecoMS1BCD_MiSTer](https://github.com/kuzearcade/Arcade-JalecoMS1BCD_MiSTer) | Core and MRAs in the repository's releases folder |
 | MegaSystem 32 | 4 | [ppriest/Arcade-JalecoMS32_MiSTer](https://github.com/ppriest/Arcade-JalecoMS32_MiSTer) |  |
+| Model 2 | 1 | [alphanu1/sega-model2-mister/tree/model2a](https://github.com/alphanu1/sega-model2-mister/tree/model2a) | Beta. Core and MRAs in the releases folder of the repository's model2a branch, not yet on its main branch |
 | NMK | 1 | [kuzearcade/Arcade-NMKBP964_MiSTer](https://github.com/kuzearcade/Arcade-NMKBP964_MiSTer) | Core and MRAs in the repository's releases folder |
 | NMK16 | 19 | [kuzearcade/Arcade-NMK16_MiSTer](https://github.com/kuzearcade/Arcade-NMK16_MiSTer) |  |
 | Namco | 3 | [kuzearcade/Arcade-NamcoSystem2_MiSTer](https://github.com/kuzearcade/Arcade-NamcoSystem2_MiSTer) | Core and MRAs in the repository's releases folder; in development. Every game also needs namcoc65.zip |
@@ -378,6 +379,14 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Gratia: Second Earth | 1996 | [GitHub](https://github.com/ppriest/Arcade-JalecoMS32_MiSTer) | `gratia.zip` | same |  |
 | P-47 Aces | 1995 | [GitHub](https://github.com/ppriest/Arcade-JalecoMS32_MiSTer) | `p47aces.zip` | same |  |
 | The Game Paradise | 1995 | [GitHub](https://github.com/ppriest/Arcade-JalecoMS32_MiSTer) | `gametngk.zip` | same |  |
+
+### Model 2
+
+| Game | Year | Core source | Zip | Merged set zip | Also needs |
+| --- | --- | --- | --- | --- | --- |
+| Zero Gunner * | 1997 | [GitHub](https://github.com/alphanu1/sega-model2-mister/tree/model2a) | `zeroguna.zip` | `zerogun.zip` |  |
+
+\* Zero Gunner: The beta core has an MRA for the Export Model 2A set only; it needs zeroguna.zip and its parent zerogun.zip. The core doesn't emulate the protection chip, so the MRA patches out its checks and enemy patterns differ from MAME's.
 
 ### Namco
 
@@ -1171,6 +1180,7 @@ xexex.zip
 xmultiplm72.zip
 youjyudn.zip
 zaxxon.zip
+zeroguna.zip
 zerowing.zip
 zingzip.zip
 ```
@@ -1490,6 +1500,7 @@ xexex.zip
 xmultipl.zip
 youjyudn.zip
 zaxxon.zip
+zerogun.zip
 zerowing.zip
 zingzip.zip
 ```

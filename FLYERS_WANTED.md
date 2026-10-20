@@ -41,3 +41,4 @@ These games use the best art found so far, shown whole on the card. A portrait s
 | Vapor Trail | Flyer squarer than a card, shown whole |
 | Vasara | Landscape flyer |
 | Vasara 2 | Landscape flyer |
+| Zero Gunner | Landscape flyer |

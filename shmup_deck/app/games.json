@@ -6776,5 +6776,27 @@
    "note": "For now, the game's CHDs need a one-off conversion (https://gnet-converter.pages.dev), which makes gnet_xiistag.zip. coh3002t.zip is MAME's G-NET BIOS"
   },
   "rotation": "ccw"
+ },
+ {
+  "id": "zerogun",
+  "title": "Zero Gunner",
+  "dev": "Psikyo",
+  "year": 1997,
+  "core": "Model 2",
+  "system": "Sega Model 2A-CRX",
+  "orientation": "yoko",
+  "setnames": [
+   "zerogun",
+   "zerogunj",
+   "zeroguna",
+   "zerogunaj"
+  ],
+  "rbf": "Model2A",
+  "roms": {
+   "zip": "zeroguna",
+   "merged": "zerogun",
+   "shared": [],
+   "note": "The beta core has an MRA for the Export Model 2A set only; it needs zeroguna.zip and its parent zerogun.zip. The core doesn't emulate the protection chip, so the MRA patches out its checks and enemy patterns differ from MAME's"
+  }
  }
 ]

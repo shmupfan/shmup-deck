@@ -1,6 +1,6 @@
 {
  "_mirrors": [
-  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/9f54c2112d544541ecfd1f9aea38c018c127cfd1/"
+  "https://raw.githubusercontent.com/shmupfan/shmup-deck-art/7319b457ac5d88852fdfc6e8ee2bccf56a68f5b1/"
  ],
  "forgottn": {
   "url": "https://images.launchbox-app.com/da018d5c-cdc4-4d1e-939b-364e5bfe6889.jpg",
@@ -4325,6 +4325,22 @@
    850,
    1203
   ],
+  "tone": 1
+ },
+ "zerogun": {
+  "url": "https://images.launchbox-app.com/dc05a6bc-0e5a-4266-82c0-230aa4667c3d.jpg",
+  "size": [
+   1802,
+   1280
+  ],
+  "crop": [
+   0,
+   0,
+   1802,
+   1280
+  ],
+  "fit": "contain",
+  "upgrade": "Landscape flyer",
   "tone": 1
  }
 }

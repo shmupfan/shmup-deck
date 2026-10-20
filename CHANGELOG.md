@@ -2,6 +2,11 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.13 (2026-10-20)
+
+- Zero Gunner, on alphanu1's new Sega Model 2A core. The core is a beta on the model2a branch of its repository (github.com/alphanu1/sega-model2-mister), not in Update All, and the card appears once the core and its MRA are installed. Its MRA is for the Export Model 2A set, which needs zeroguna.zip and its parent zerogun.zip in games/mame. The core doesn't emulate the game's protection chip, so the MRA patches out its checks and enemy patterns differ from MAME's. With its landscape flyer, shown whole. Zero Gunner joins the Psikyo deck. 318 games in all.
+- Kiosk mode is easier to leave. With a mouse, moving it shows an Exit kiosk button in the top left corner, which fades after a few seconds. On a touch screen, a label by the top left corner shows how to leave each time kiosk mode opens; while you press the corner it says to keep holding, and after a short press it says to hold for 2 seconds. The corner sits below the phone's status bar and notch.
+
 ## 1.12.12 (2026-10-08)
 
 - Back to menu works on phones while a game is running. The running game's card at the top of the wall now carries a Back to MiSTer menu button, so it no longer goes away when you tap past the Now playing screen, or when the game was started from another device or the MiSTer itself.

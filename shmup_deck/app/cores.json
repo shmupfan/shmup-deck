@@ -337,6 +337,11 @@
   "megasys1_a": {
    "source": "coinop"
   },
+  "Model2A": {
+   "source": "github",
+   "url": "https://github.com/alphanu1/sega-model2-mister/tree/model2a",
+   "note": "Beta. Core and MRAs in the releases folder of the repository's model2a branch, not yet on its main branch"
+  },
   "Namco_NA1_NA2": {
    "source": "ongo",
    "url": "https://github.com/OngoGablogian/MiSTer_Ongo"
