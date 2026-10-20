@@ -193,7 +193,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 
 | Game | Year | Core source | Zip | Merged set zip | Also needs |
 | --- | --- | --- | --- | --- | --- |
-| Boogie Wings | 1992 | MiSTer main distribution | `boogwinga.zip` | same |  |
+| Boogie Wings | 1992 | MiSTer main distribution | `boogwinga.zip` | `boogwing.zip` |  |
 | Cobra-Command | 1988 | Coin-Op Collection | `cobracom.zip` | same |  |
 | Double Wings | 1993 | Coin-Op Collection | `dblewingb.zip` | `dblewing.zip` |  |
 | Vapor Trail | 1989 | MiSTer main distribution | `vaportra.zip` | same |  |
@@ -527,7 +527,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | --- | --- | --- | --- | --- | --- |
 | Battle of Atlantis | 1981 | MiSTer main distribution | `atlantis2.zip` | `atlantis.zip` |  |
 | Mars | 1981 | MiSTer main distribution | `mars.zip` | same |  |
-| Scramble | 1981 | MiSTer main distribution | `scrambp.zip` | same |  |
+| Scramble | 1981 | MiSTer main distribution | `scrambp.zip` | `scramble.zip` |  |
 | Super Cobra | 1981 | MiSTer main distribution | `scobra.zip` | same |  |
 
 ### SD Gundam
@@ -559,7 +559,7 @@ These cores are not in update_all. Install the core and its MRAs from each repos
 | Brain | 1986 | [GitHub](https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer) | `brain.zip` | same |  |
 | Gardia | 1986 | [GitHub](https://github.com/TheJesusFish/Blackwine-SegaSystem1-2_MiSTer) | `gardia.zip` | same |  |
 | Rafflesia | 1986 | MiSTer main distribution | `raflesia.zip` | same |  |
-| Star Jacker | 1983 | MiSTer main distribution | `starjacks.zip` | same |  |
+| Star Jacker | 1983 | MiSTer main distribution | `starjacks.zip` | `starjack.zip` |  |
 
 ### Sega System 16B
 
@@ -1226,7 +1226,7 @@ blazeon.zip
 blkheart.zip
 blswhstl.zip
 bluehawk.zip
-boogwinga.zip
+boogwing.zip
 brain.zip
 brvblade.zip
 cairblad.zip
@@ -1414,7 +1414,7 @@ salmndr2.zip
 samuraia.zip
 sandscrp.zip
 scobra.zip
-scrambp.zip
+scramble.zip
 sdgndmps.zip
 sdi.zip
 sectionz.zip
@@ -1444,7 +1444,7 @@ sstriker.zip
 stagger1.zip
 starfigh.zip
 starforc.zip
-starjacks.zip
+starjack.zip
 starsldr.zip
 stdragon.zip
 stg.zip

@@ -2,6 +2,10 @@
 
 Every release of Shmup Deck, newest first. The GitHub release for each version carries the same notes at greater length. `tools/release.sh` reads the notes for a release from this file, so a version cannot be published without an entry here.
 
+## 1.12.14 (2026-10-20)
+
+- Boogie Wings, Scramble and Star Jacker no longer show as missing ROMs when you have a merged MAME set. Their cards asked for the zip of the version their MRA plays (boogwinga, scrambp, starjacks), which a merged set keeps inside the parent's zip; they now accept boogwing.zip, scramble.zip and starjack.zip as well. ROMS.md lists the merged zips.
+
 ## 1.12.13 (2026-10-20)
 
 - Zero Gunner, on alphanu1's new Sega Model 2A core. The core is a beta on the model2a branch of its repository (github.com/alphanu1/sega-model2-mister), not in Update All, and the card appears once the core and its MRA are installed. Its MRA is for the Export Model 2A set, which needs zeroguna.zip and its parent zerogun.zip in games/mame. The core doesn't emulate the game's protection chip, so the MRA patches out its checks and enemy patterns differ from MAME's. With its landscape flyer, shown whole. Zero Gunner joins the Psikyo deck. 318 games in all.

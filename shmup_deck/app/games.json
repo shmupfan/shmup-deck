@@ -4851,7 +4851,7 @@
   ],
   "roms": {
    "zip": "boogwinga",
-   "merged": "boogwinga",
+   "merged": "boogwing",
    "shared": []
   }
  },
@@ -5613,7 +5613,7 @@
   "rbf": "scramble",
   "roms": {
    "zip": "scrambp",
-   "merged": "scrambp",
+   "merged": "scramble",
    "shared": []
   },
   "rotation": "cw"
@@ -5818,7 +5818,7 @@
   "rbf": "segasys1",
   "roms": {
    "zip": "starjacks",
-   "merged": "starjacks",
+   "merged": "starjack",
    "shared": []
   },
   "rotation": "ccw"
